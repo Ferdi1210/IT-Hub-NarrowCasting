@@ -6,37 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
+
 </head>
 <body>
-  <div class="frontpage">
-    <img id="frontpage" src="01. totaal/Designs  narrowcasting_Welkomstscherm.png" onclick="moveImage()" style="width: 1920px;;height:auto;"> 
-  </div>
+    <div class="website">
+        <div class="grid">
+            <div class="bekijk-afspraak">
+                <a href="#"><img src="img/afbeelding-afspraak-bekijken-met-tekst.png"></a>
+            </div>
 
-    <a href="https://www.Youtube.com/"><img src="01. totaal/Designs  narrowcasting_Keuzescherm.png" id="img1" usemap="#image-map" alt="niet gevonden" class="img1"></a>
-    <!-- <a href="https://www.Youtube.com/"><button type="button"></button></a> -->
-    <img src="ithub.png" id="logoITHUB" alt="niet gevonden" width="0" height="0">
-    <h1 id="text"></h1>
- 
-    <!-- <img src="01. totaal/Designs  narrowcasting_Keuzescherm.png" alt="Your Image" usemap="#image-map"> -->
-
-<map name="image-map">
-  <area shape="rect" coords="0,0,200,400" href="https://www.Youtube.com/" alt="Clickable Area 1">
-  <area shape="rect" coords="200,0,400,400" href="https://www.twitch.tv/soweq/" alt="Clickable Area 2">
-</map> 
+            <div class="reserveer-werkplek">
+                <a href="#"><img src="img/afbeelding-reservering-maken-met-tekst.png"></a>
+            </div>
+        </div>
+        
+        <div class="image-logo">
+            <a href="#"><img src="img/ithub-verticaal.png"></a>
+        </div>
+    </div>
 
 </body>
 </html>
-
-<script>
-
-function moveImage() {
-  var image = document.getElementById("frontpage");
-  image.style.position = "absolute";
-  image.style.bottom = "1000px";
-
-  setTimeout(function() {
-    image.style.position = "static";
-  }, 20000000000000000000); //(60,000 milliseconds) 1 minuut
-}
-
-</script>
