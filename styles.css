@@ -44,9 +44,6 @@ body{
     z-index: 1;
 }
 
-
-
-
 body{
     background-image: url("img/background-image-repeater");
     background-size: 100% auto;
@@ -81,6 +78,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 40% 60%;
+    color: white;
 }
 
 .grid img{

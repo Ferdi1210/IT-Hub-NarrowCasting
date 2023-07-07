@@ -1,5 +1,4 @@
 <?php
-
 function selectQuery($query){
     global $oConnection;
     $result = mysqli_query($oConnection, $query);

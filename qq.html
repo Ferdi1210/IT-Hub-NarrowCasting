@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It-Hub</title>
     <link href="styles.css" rel="stylesheet">
-
 </head>
+
 <body>
     <div class="website">
         <div class="grid">
@@ -27,20 +27,17 @@
     <div class="frontpage">
         <img id="frontpage" src="img/Designs  narrowcasting_Welkomstscherm.png" onclick="moveImage()" style="width: 1920px;;height:auto;"> 
     </div>
-
 </body>
 </html>
 
 <script>
-
     function moveImage() {
-      var image = document.getElementById("frontpage");
-      image.style.position = "absolute";
-      image.style.bottom = "10000px";
+        var image = document.getElementById("frontpage");
+        image.style.position = "absolute";
+        image.style.bottom = "10000px";
     
-      setTimeout(function() {
+        setTimeout(function() {
         image.style.position = "static";
-      }, 1000); //(60,000 milliseconds) 1 minuut
+        }, 1000); //(60,000 milliseconds) 1 minuut
     }
-    
-    </script>
+</script>
